@@ -66,8 +66,8 @@ function preserveDecimal(n){
 console.log(preserveDecimal(3.4555));
 
 function preserveDecimal(n){
-    return parseFloat(n);
+    return parseInt(n, 10);
 }
-console.log(preserveDecimal("3.4555"));
+console.log(preserveDecimal("nonsense"));
 
 
